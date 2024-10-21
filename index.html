@@ -25,8 +25,8 @@
 		<div class="row">
 
 			<!--Products-->
-			<div class="col-md-8">
-				<div class="row">
+			<div id="prod" class="col-md-8">
+				<div id="pord" class="row">
 
 					<!-- Phone -->
 					<div class="col-md-6">
@@ -57,7 +57,7 @@
 
 					<!-- Phone -->
 					<div class="col-md-6">
-						<div class="card mb-4" data-id="01">
+						<div class="card mb-4" data-id="02">
 							<img class="product-img" src="img/phone/images-1.jpg" alt="">
 							<div class="card-body text-center">
 								<h4 class="item-title">Iphone 12</h4>
@@ -84,7 +84,7 @@
 
 					<!-- Phone -->
 					<div class="col-md-6">
-						<div class="card mb-4" data-id="01">
+						<div class="card mb-4" data-id="03">
 							<img class="product-img" src="img/phone/images.jpg" alt="">
 							<div class="card-body text-center">
 								<h4 class="item-title">Iphone 16</h4>
@@ -111,7 +111,7 @@
 
 					<!-- Phone -->
 					<div class="col-md-6">
-						<div class="card mb-4" data-id="01">
+						<div class="card mb-4" data-id="04">
 							<img class="product-img" src="img/phone/Webklip_21-9-2022_92216_www.proshop.dk.w610.h610.backdrop.webp" alt="">
 							<div class="card-body text-center">
 								<h4 class="item-title">Iphone 13</h4>
@@ -146,41 +146,14 @@
 				<div class="card mb-4">
 					<div class="card-body">
 						<h5 class="card-title">Your Order</h4>
-						<div data-cart-empty class="alert alert-secondary" role="alert">
+						<div id="empty" data-cart-empty class="alert alert-secondary" role="alert">
 							Cart empty
 						</div>
 						<!-- cart-wrapper -->
 						<div class="cart-wrapper">
 
 							<!-- Cart item Stananl JSUM-->
-							<div class="cart-item" data-id="02">
-								<div class="cart-item__top">
-									<div class="cart-item__img">
-										<img src="img/phone/images-1.jpg" alt="">
-									</div>
-									<div class="cart-item__desc">
-										<div class="cart-item__title">Iphone 14</div>
-										
-
-										<!-- cart-item__details -->
-										<div class="cart-item__details">
-
-											<div class="items items--small counter-wrapper">
-												<div class="items__control" data-action="minus">-</div>
-												<div class="items__current" data-counter="">1</div>
-												<div class="items__control" data-action="plus">+</div>
-											</div>
-
-											<div class="price">
-												<div class="price__currency">450$</div>
-											</div>
-
-										</div>
-										<!-- // cart-item__details -->
-
-									</div>
-								</div>
-							</div>
+						
 							<!-- // Cart item -->
 
 						</div>
@@ -216,7 +189,7 @@
 	</div>
 
 	<!-- Подключаем скрипты -->
-	<script src="./js/index.js"></script>
+	<script type="module" src="./js/index.js"></script>
 </body>
 
 </html>
